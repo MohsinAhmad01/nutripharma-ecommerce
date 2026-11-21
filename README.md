@@ -8,8 +8,7 @@ A full-stack e-commerce web application built using the **MERN Stack (MongoDB, E
 - React.js
 - Vite
 - JavaScript (ES6+)
-- HTML5 & CSS3
-- Bootstrap (if used in the project)
+- Bootstrap 
 
 ### Backend
 - Node.js
@@ -17,7 +16,7 @@ A full-stack e-commerce web application built using the **MERN Stack (MongoDB, E
 - MongoDB
 - Mongoose
 - RESTful APIs
-- JWT Authentication (if configured)
+- JWT Authentication 
 
 ### Development Tools
 - Git & GitHub
@@ -31,9 +30,9 @@ A full-stack e-commerce web application built using the **MERN Stack (MongoDB, E
 - Shopping cart functionality
 - Backend REST API
 - MongoDB database integration
-- User authentication and authorization (if enabled)
-- Order and checkout management (if implemented)
-- Admin/product management (if implemented)
+- User authentication and authorization 
+- Order and checkout management 
+- Admin/product management 
 
 ## 📁 Project Structure
 
