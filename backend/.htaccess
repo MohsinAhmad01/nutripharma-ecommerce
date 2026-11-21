@@ -1,0 +1,13 @@
+
+Options -Indexes
+
+# Block sensitive backend files
+<FilesMatch "(^\.|createAdmin\.js|package\.json|package-lock\.json|server\.js|app\.js|config\.env|\.env)">
+    Require all denied
+</FilesMatch>
+
+# Block access to hidden files
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule (^|/)\. - [F]
+</IfModule>
