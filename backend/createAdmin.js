@@ -9,8 +9,8 @@ const createAdmin = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI);
 
-    const email = "admin@nutrinoven.com";
-    const password = "Pass100000";
+    const email = "******";
+    const password = "******";
 
     const hashedPassword = await bcrypt.hash(password, 10);
 
